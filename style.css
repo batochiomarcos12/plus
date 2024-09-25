@@ -135,7 +135,39 @@ body {
     font-size: 14px;
 }
 
-.rodape {
+.baseboard {
     text-align: center;
     margin: 5em 3em;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-color: none;
+    }
+
+    .container__image {
+        width: 50vw;
+    }
+
+    .container__box {
+        margin: 2em 2em;
+    }
+
+    .secundary {
+        margin: 0;
+        text-align: center;
+    }   
+    
+    .secundary__image {
+        width: 50vw;
+    }
+
+    .devices__list {
+        display: block;
+    }
+
+    .baseboard__list  {
+        display: block;
+    }
 }
